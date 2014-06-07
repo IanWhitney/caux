@@ -5,6 +5,7 @@ gem 'rails', '4.0.3'
 
 # Added Devise for User Mgmt/Authentication
 gem 'devise'
+gem 'bcrypt'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'

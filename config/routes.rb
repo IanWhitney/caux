@@ -1,4 +1,6 @@
 Caux::Application.routes.draw do
+  resources :registrations
+
   devise_for :interns
   get "home/index"
   # The priority is based upon order of creation: first created -> highest priority.
