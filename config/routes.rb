@@ -1,5 +1,5 @@
 Caux::Application.routes.draw do
-  resources :registrations
+  resources :visa_registrations
 
   devise_for :interns
   get "home/index"

@@ -1,5 +1,18 @@
-<p class="label"><b>Intern Email: </b><%= current_intern.email %> 
-<%= link_to "Logout", destroy_intern_session_path, method: :delete %></p>
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
-
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Caux</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+    </ul>
+    <p class="navbar-text pull-right">
+    <p class="navbar-text pull-right">
+      <%= current_intern.email %> | 
+      <%= link_to 'Log Out', destroy_intern_session_path, method: :delete, class: 'btn btn-default ' %>
+    </p>
+  </div>
+</nav>
+<article>
+  <h1>Welcome</h1>
+</article

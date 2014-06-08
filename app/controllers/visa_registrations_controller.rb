@@ -1,0 +1,2 @@
+class VisaRegistrationsController < ApplicationController
+end
